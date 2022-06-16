@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("crack").checkin()
+		__import__("crack").login()
 	else:
-		__import__("crack").checkin()
+		__import__("crack").login()
